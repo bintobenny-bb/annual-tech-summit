@@ -599,7 +599,7 @@
     <script>
         // ================= AUTH GUARD =================
         if (sessionStorage.getItem("role") !== "user") {
-            window.location.href = "login.html";
+            window.location.href = "index.html";
         }
 
         // ================= LOAD USER DATA =================
@@ -656,7 +656,7 @@
         // ================= LOGOUT =================
         function logout() {
             sessionStorage.clear();
-            window.location.href = "login.html";
+            window.location.href = "index.html";
         }
 
         // ================= INIT =================
