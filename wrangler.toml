@@ -1,0 +1,6 @@
+name = "annual-tech-summit"
+compatibility_date = "2024-03-26"
+
+# This tells Cloudflare where your HTML/CSS files are. 
+# Use "./" if they are in the main folder.
+assets = { directory = "./" }
